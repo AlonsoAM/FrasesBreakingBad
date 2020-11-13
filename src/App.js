@@ -52,7 +52,7 @@ function App() {
     }
   }
 
-  // UseEffect
+  // UseEffect para que al cargar aparezca una frase de The Braking Bad
   useEffect(() => {
     ConsultarAPI()
   }, [])
